@@ -1,12 +1,11 @@
- let fullName = "Ibrahim"
- console.log(fullName.length);
- console.log(fullName.replaceAll("Ibrahim"," "));
+ let fullName = "Ibrahim Mamedov"
+ console.log(fullName.replaceAll(" "," ").length)
  
 
 
- let firstName = "Ibrahim "
- let lastName ="Mamedov"
- console.log( lastName +" "+ firstName)
+ let fulNamee = "Ibrahim Mamedov "
+ console.log(fulNamee.replaceAll("Ibrahim Mamedov","Mamedov Ibrahim"))
+  
  
 
 
